@@ -12,7 +12,7 @@ Command: **list**
 2: vacuum clean
 Command: **completed**
 Which task was completed? **2**
-Task go to the store tehty
+go to the store
 Command: **list**
 1: go to the store
 Command: **add**
@@ -82,8 +82,8 @@ list.print_out()
 2: take it easy
 1: read the course material
 2: take it easy
-3: buy rasins
-1: buy rasins
+3: buy raisins
+1: buy raisins
 ```
 
 ## User interface
@@ -119,4 +119,6 @@ Command: **list**
 Command: **stop**
 ```
 
-NB! The user interface is to use the ToDoList and Scanner that are passed as parameters to the constructor.
+**NB:** The user interface is to use the ToDoList that is passed as a parameter to the constructor.
+
+**NB:** There is no automatic testing for this exercise past syntax checking, so you should test your code before committing it.
